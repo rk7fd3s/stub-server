@@ -1,0 +1,12 @@
+version: '2.2'
+
+services:
+  mocksan:
+    build: .
+    container_name: stubServer
+    volumes:
+      - "./src:/src"
+      - "./data:/data"
+    ports:
+      - "3030:3000"
+    entrypoint: node /src/mocky.js
