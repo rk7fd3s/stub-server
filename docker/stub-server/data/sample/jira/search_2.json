@@ -1,0 +1,59 @@
+{
+  "expand": "schema,names",
+  "startAt": 3,
+  "maxResults": 2,
+  "total": 4,
+  "issues": [
+    {
+      "expand": "operations,customfield_22228.requestTypePractice,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "443995",
+      "self": "https://hogehoge.atlassian.net/rest/api/3/issue/443995",
+      "key": "TSTSPACTMG-6",
+      "fields": {
+        "summary": "株式会社CCCCC",
+        "customfield_19200": null,
+        "customfield_18111": null,
+        "customfield_19201": null,
+        "customfield_18112": null,
+        "customfield_18113": null,
+        "customfield_17308": "2024-09-08",
+        "customfield_17309": "2024-11-20",
+        "issuetype": {
+            "self": "https://hogehoge.atlassian.net/rest/api/3/issuetype/11500",
+            "id": "11500",
+            "description": "課金契約",
+            "iconUrl": "https://hogehoge.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/13400?size=medium",
+            "name": "課金",
+            "subtask": false,
+            "avatarId": 13400,
+            "hierarchyLevel": 0
+        }
+      }
+    },
+    {
+      "expand": "operations,customfield_22228.requestTypePractice,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "443980",
+      "self": "https://hogehoge.atlassian.net/rest/api/3/issue/443980",
+      "key": "TSTSPACTMG-5",
+      "fields": {
+        "summary": "株式会社DDDDDDDD",
+        "customfield_18111": null,
+        "customfield_19200": null,
+        "customfield_18112": null,
+        "customfield_19201": null,
+        "customfield_18113": null,
+        "customfield_17308": "2024-08-08",
+        "customfield_17309": "2024-10-20",
+        "issuetype": {
+          "self": "https://hogehoge.atlassian.net/rest/api/3/issuetype/16",
+          "id": "16",
+          "description": "",
+          "iconUrl": "https://hogehoge.atlassian.net/images/icons/issuetypes/blank.png",
+          "name": "その他",
+          "subtask": false,
+          "hierarchyLevel": 0
+        }
+      }
+    }
+  ]
+}
